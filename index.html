@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://static.figma.com/app/icon/1/favicon.png">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./styles/normalize.css">
+
+    <!-- fonts css -->
+    <link rel="stylesheet" href="./styles/fonts.css">
+
+    <!-- general css -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>NFT – Figma</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-first-part">
+                <div class="logo">
+                    <a href="#">Rolling</a>
+                </div>
+                <div class="search-rolling">
+                    <form action="#">
+                        <input type="search" placeholder="Search Rolling">
+                    </form>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Activity</a></li>
+                    <li><a href="#">Feed</a></li>
+                    <li><a href="#">Bids</a></li>
+                </ul>
+            </nav>
+            <div class="btn">
+                <ul>
+                    <li><a class="lightning-btn" href="#"><img width="70" height="70" src="./images/lightning-icon.svg" alt="lighting icon"></a></li>
+                    <li><a class="header-btn" href="#">Connect Wallet</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="hero">
+                <div class="left-side">
+                    <img src="./images/hero-bc-img.png" alt="hero bc img">
+                </div>
+                <div class="right-hero-card">
+                    <h3>The circle's pristine cleanliness</h3>
+                    <div class="user-name">
+                        <img width="24" src="./images/user-tungtran.png" alt="user">
+                        <p>Tung Tran</p>
+                    </div>
+                    <div class="numbers-rating">
+                        <div class="current-bid-left">
+                            <h6>Current Bid</h6>
+                            <p class="eth-number">0.85 ETH</p>
+                            <p class="opacity-title">$2,169.42</p>
+                        </div>
+                        <div class="auctions">
+                            <h6>Auction ends in</h6>
+                            <div class="time-auctions">
+                                <div class="hours">
+                                    <p class="eth-number">3</p>
+                                    <p class="opacity-title">Hours</p>
+                                </div>
+                                <div class="minutes">
+                                    <p class="eth-number">16</p>
+                                    <p class="opacity-title">Minutes</p>
+                                </div>
+                                <div class="seconds">
+                                    <p class="eth-number">58</p>
+                                    <p class="opacity-title">Seconds</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="hero-btn-bid">Place a bid</button>
+                    <a class="hero-link" href="#">View artwork</a>
+                </div>
+            </section>
+            <section class="live-auctions">
+                <div class="top-title">
+                    <h3>Live auctions 🔥 </h3>
+                    <a href="#">View all auctions</a>
+                </div>
+                <div class="auction-cards">
+                    <div class="one-card auction-card">
+                        <div class="auction-img-card">
+                            <img width="312" height="280" src="./images/auction-img-one.png" alt="3D soft curfes">
+                        </div>
+                        <div class="auction-title-card">
+                            <h2>3D Soft Curves</h2>
+                            <p class="auction-current">Current Bid</p>
+                            <div class="card-footer">
+                                <div class="left-card-footer">
+                                    <img width="24" src="./images/user-estherhoward.png" alt="user">
+                                    <p>Esther Howard</p>
+                                </div>
+                                <div class="right-card-footer">
+                                    <h5>0.85 ETH</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="two-card auction-card">
+                        <div class="auction-img-card">
+                            <img width="312" height="280" src="./images/auction-img-two.png" alt="3D soft curfes">
+                        </div>
+                        <div class="auction-title-card">
+                            <h2>The mystery of the black</h2>
+                            <p class="auction-current">Current Bid</p>
+                            <div class="card-footer">
+                                <div class="left-card-footer">
+                                    <img width="24" src="./images/user-jenny.png" alt="user">
+                                    <p>Jenny Wilson</p>
+                                </div>
+                                <div class="right-card-footer">
+                                    <h5>0.24 ETH</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="three-card auction-card">
+                        <div class="auction-img-card">
+                            <img width="312" height="280" src="./images/auction-img-three.png" alt="3D soft curfes">
+                        </div>
+                        <div class="auction-title-card">
+                            <h2>Pink Cloud 🌥</h2>
+                            <p class="auction-current">Current Bid</p>
+                            <div class="card-footer">
+                                <div class="left-card-footer">
+                                    <img width="24" src="./images/user-fleyd.png" alt="user">
+                                    <p>Floyd Miles</p>
+                                </div>
+                                <div class="right-card-footer">
+                                    <h5>0.3 ETH</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="four-card auction-card">
+                        <div class="auction-img-card">
+                            <img width="312" height="280" src="./images/auction-img-four.png" alt="3D soft curfes">
+                        </div>
+                        <div class="auction-title-card">
+                            <h2>3D Ethereum</h2>
+                            <p class="auction-current">Current Bid</p>
+                            <div class="card-footer">
+                                <div class="left-card-footer">
+                                    <img width="24" src="./images/user-jane.png" alt="user">
+                                    <p>Jane Cooper</p>
+                                </div>
+                                <div class="right-card-footer">
+                                    <h5>0.12 ETH</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured">
+                <div class="top-title">
+                    <h3>Featured ✨  </h3>
+                    <a href="#">View all</a>
+                </div>
+                <div class="auction-cards">
+                    <div class="one-card auction-card">
+                        <div class="auction-img-card">
+                            <img width="312" height="280" src="./images/feat-img-one.png" alt="3D soft curfes">
+                        </div>
+                        <div class="auction-title-card">
+                            <h2>3D Soft Curves</h2>
+                            <p class="auction-current">Current Bid</p>
+                            <div class="card-footer">
+                                <div class="left-card-footer">
+                                    <img width="24" src="./images/user-estherhoward.png" alt="user">
+                                    <p>Esther Howard</p>
+                                </div>
+                                <div class="right-card-footer">
+                                    <h5>0.85 ETH</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="two-card auction-card">
+                        <div class="auction-img-card">
+                            <img width="312" height="280" src="./images/feat-img-two.png" alt="3D soft curfes">
+                        </div>
+                        <div class="auction-title-card">
+                            <h2>3D Soft Curves</h2>
+                            <p class="auction-current">Current Bid</p>
+                            <div class="card-footer">
+                                <div class="left-card-footer">
+                                    <img width="24" src="./images/user-estherhoward.png" alt="user">
+                                    <p>Esther Howard</p>
+                                </div>
+                                <div class="right-card-footer">
+                                    <h5>0.85 ETH</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="three-card auction-card">
+                        <div class="auction-img-card">
+                            <img width="312" height="280" src="./images/feat-img-three.png" alt="3D soft curfes">
+                        </div>
+                        <div class="auction-title-card">
+                            <h2>3D Soft Curves</h2>
+                            <p class="auction-current">Current Bid</p>
+                            <div class="card-footer">
+                                <div class="left-card-footer">
+                                    <img width="24" src="./images/user-estherhoward.png" alt="user">
+                                    <p>Esther Howard</p>
+                                </div>
+                                <div class="right-card-footer">
+                                    <h5>0.85 ETH</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="four-card auction-card">
+                        <div class="auction-img-card">
+                            <img width="312" height="280" src="./images/feat-img-four.png" alt="3D soft curfes">
+                        </div>
+                        <div class="auction-title-card">
+                            <h2>3D Soft Curves</h2>
+                            <p class="auction-current">Current Bid</p>
+                            <div class="card-footer">
+                                <div class="left-card-footer">
+                                    <img width="24" src="./images/user-estherhoward.png" alt="user">
+                                    <p>Esther Howard</p>
+                                </div>
+                                <div class="right-card-footer">
+                                    <h5>0.85 ETH</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="auction-cards">
+                    <div class="one-card auction-card">
+                        <div class="auction-img-card">
+                            <img width="312" height="280" src="./images/feat-img-five.png" alt="3D soft curfes">
+                        </div>
+                        <div class="auction-title-card">
+                            <h2>3D Soft Curves</h2>
+                            <p class="auction-current">Current Bid</p>
+                            <div class="card-footer">
+                                <div class="left-card-footer">
+                                    <img width="24" src="./images/user-estherhoward.png" alt="user">
+                                    <p>Esther Howard</p>
+                                </div>
+                                <div class="right-card-footer">
+                                    <h5>0.85 ETH</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="two-card auction-card">
+                        <div class="auction-img-card">
+                            <img width="312" height="280" src="./images/feat-img-six.png" alt="3D soft curfes">
+                        </div>
+                        <div class="auction-title-card">
+                            <h2>3D Soft Curves</h2>
+                            <p class="auction-current">Current Bid</p>
+                            <div class="card-footer">
+                                <div class="left-card-footer">
+                                    <img width="24" src="./images/user-estherhoward.png" alt="user">
+                                    <p>Esther Howard</p>
+                                </div>
+                                <div class="right-card-footer">
+                                    <h5>0.85 ETH</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="three-card auction-card">
+                        <div class="auction-img-card">
+                            <img width="312" height="280" src="./images/feat-img-seven.png" alt="3D soft curfes">
+                        </div>
+                        <div class="auction-title-card">
+                            <h2>3D Soft Curves</h2>
+                            <p class="auction-current">Current Bid</p>
+                            <div class="card-footer">
+                                <div class="left-card-footer">
+                                    <img width="24" src="./images/user-estherhoward.png" alt="user">
+                                    <p>Esther Howard</p>
+                                </div>
+                                <div class="right-card-footer">
+                                    <h5>0.85 ETH</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="four-card auction-card">
+                        <div class="auction-img-card">
+                            <img width="312" height="280" src="./images/feat-img-eight.png" alt="3D soft curfes">
+                        </div>
+                        <div class="auction-title-card">
+                            <h2>3D Soft Curves</h2>
+                            <p class="auction-current">Current Bid</p>
+                            <div class="card-footer">
+                                <div class="left-card-footer">
+                                    <img width="24" src="./images/user-estherhoward.png" alt="user">
+                                    <p>Esther Howard</p>
+                                </div>
+                                <div class="right-card-footer">
+                                    <h5>0.85 ETH</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="auction-cards">
+                    <div class="one-card auction-card">
+                        <div class="auction-img-card">
+                            <img width="312" height="280" src="./images/feat-img-nine.png" alt="3D soft curfes">
+                        </div>
+                        <div class="auction-title-card">
+                            <h2>3D Soft Curves</h2>
+                            <p class="auction-current">Current Bid</p>
+                            <div class="card-footer">
+                                <div class="left-card-footer">
+                                    <img width="24" src="./images/user-estherhoward.png" alt="user">
+                                    <p>Esther Howard</p>
+                                </div>
+                                <div class="right-card-footer">
+                                    <h5>0.85 ETH</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="two-card auction-card">
+                        <div class="auction-img-card">
+                            <img width="312" height="280" src="./images/feat-img-ten.png" alt="3D soft curfes">
+                        </div>
+                        <div class="auction-title-card">
+                            <h2>3D Soft Curves</h2>
+                            <p class="auction-current">Current Bid</p>
+                            <div class="card-footer">
+                                <div class="left-card-footer">
+                                    <img width="24" src="./images/user-estherhoward.png" alt="user">
+                                    <p>Esther Howard</p>
+                                </div>
+                                <div class="right-card-footer">
+                                    <h5>0.85 ETH</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="three-card auction-card">
+                        <div class="auction-img-card">
+                            <img width="312" height="280" src="./images/feat-img-eleven.png" alt="3D soft curfes">
+                        </div>
+                        <div class="auction-title-card">
+                            <h2>3D Soft Curves</h2>
+                            <p class="auction-current">Current Bid</p>
+                            <div class="card-footer">
+                                <div class="left-card-footer">
+                                    <img width="24" src="./images/user-estherhoward.png" alt="user">
+                                    <p>Esther Howard</p>
+                                </div>
+                                <div class="right-card-footer">
+                                    <h5>0.85 ETH</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="four-card auction-card">
+                        <div class="auction-img-card">
+                            <img width="312" height="280" src="./images/feat-img-twelve.png" alt="3D soft curfes">
+                        </div>
+                        <div class="auction-title-card">
+                            <h2>3D Soft Curves</h2>
+                            <p class="auction-current">Current Bid</p>
+                            <div class="card-footer">
+                                <div class="left-card-footer">
+                                    <img width="24" src="./images/user-estherhoward.png" alt="user">
+                                    <p>Esther Howard</p>
+                                </div>
+                                <div class="right-card-footer">
+                                    <h5>0.85 ETH</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-btn">
+                    <a href="#">Lead More</a>
+                </div>
+            </section>
+            <section class="top-creators">
+                <div class="top-title">
+                    <h3>Top Creators</h3>
+                    <a href="#">View all</a>
+                </div>
+                <div class="creator-cards">
+                    <div class="card-top-cre">
+                        <img src="./images/creator-img-one.png" alt="creator img">
+                        <div class="content-creator-form_padding">
+                            <div class="content-creator-card ">
+                                <div class="user-creator-block">
+                                    <img width="56" src="./images/user-tungtran56.png" alt="user">
+                                </div>
+                                <div class="user-desc-creator">
+                                    <div class="user-name-creator-block">
+                                        <h5>Tung Tran</h5>
+                                        <img src="./images/check-mark.svg" alt="check mark icon">
+                                    </div>
+                                    <div class="user-title-creator">
+                                        <p>Bad Artist, NFT Enthusiast, Metaverse Innovator 
+                                            Supporting #bitcoin since 2012.</p>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="footer-follow-creator ">
+                                    <p>3K Followers</p>
+                                    <button>Follow</button>
+                                </div>
+                         </div>
+                     </div>
+                     <div class="card-top-cre">
+                        <img src="./images/creator-img-two.png" alt="creator img">
+                        <div class="content-creator-form_padding">
+                            <div class="content-creator-card ">
+                                <div class="user-creator-block">
+                                    <img width="56" src="./images/user-wade.png" alt="user">
+                                </div>
+                                <div class="user-desc-creator">
+                                    <div class="user-name-creator-block">
+                                        <h5>Wade Warren</h5>
+                                        <img src="./images/check-mark.svg" alt="check mark icon">
+                                    </div>
+                                    <div class="user-title-creator">
+                                        <p>Bad Artist, NFT Enthusiast, Metaverse Innovator 
+                                            Supporting #bitcoin since 2012.</p>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="footer-follow-creator ">
+                                    <p>3K Followers</p>
+                                    <button>Follow</button>
+                                </div>
+                         </div>
+                     </div>
+                     <div class="card-top-cre">
+                        <img src="./images/creator-img-three.png" alt="creator img">
+                        <div class="content-creator-form_padding">
+                            <div class="content-creator-card ">
+                                <div class="user-creator-block">
+                                    <img width="56" src="./images/user-arlene.png" alt="user">
+                                </div>
+                                <div class="user-desc-creator">
+                                    <div class="user-name-creator-block">
+                                        <h5>Arlene McCoy</h5>
+                                        <img src="./images/check-mark.svg" alt="check mark icon">
+                                    </div>
+                                    <div class="user-title-creator">
+                                        <p>Bad Artist, NFT Enthusiast, Metaverse Innovator 
+                                            Supporting #bitcoin since 2012.</p>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="footer-follow-creator ">
+                                    <p>3K Followers</p>
+                                    <button>Follow</button>
+                                </div>
+                         </div>
+                     </div>
+                     <div class="card-top-cre">
+                        <img src="./images/creator-img-four.png" alt="creator img">
+                        <div class="content-creator-form_padding">
+                            <div class="content-creator-card ">
+                                <div class="user-creator-block">
+                                    <img width="56" src="./images/user-dianne.png" alt="user">
+                                </div>
+                                <div class="user-desc-creator">
+                                    <div class="user-name-creator-block">
+                                        <h5>Dianne Russell</h5>
+                                        <img src="./images/check-mark.svg" alt="check mark icon">
+                                    </div>
+                                    <div class="user-title-creator">
+                                        <p>Bad Artist, NFT Enthusiast, Metaverse Innovator 
+                                            Supporting #bitcoin since 2012.</p>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="footer-follow-creator ">
+                                    <p>3K Followers</p>
+                                    <button>Follow</button>
+                                </div>
+                         </div>
+                     </div>
+                </div>
+                <div class="creator-cards">
+                    <div class="card-top-cre">
+                        <img src="./images/creator-img-one.png" alt="creator img">
+                        <div class="content-creator-form_padding">
+                            <div class="content-creator-card ">
+                                <div class="user-creator-block">
+                                    <img width="56" src="./images/user-tungtran56.png" alt="user">
+                                </div>
+                                <div class="user-desc-creator">
+                                    <div class="user-name-creator-block">
+                                        <h5>Tung Tran</h5>
+                                        <img src="./images/check-mark.svg" alt="check mark icon">
+                                    </div>
+                                    <div class="user-title-creator">
+                                        <p>Bad Artist, NFT Enthusiast, Metaverse Innovator 
+                                            Supporting #bitcoin since 2012.</p>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="footer-follow-creator ">
+                                    <p>3K Followers</p>
+                                    <button>Follow</button>
+                                </div>
+                         </div>
+                     </div>
+                     <div class="card-top-cre">
+                        <img src="./images/creator-img-two.png" alt="creator img">
+                        <div class="content-creator-form_padding">
+                            <div class="content-creator-card ">
+                                <div class="user-creator-block">
+                                    <img width="56" src="./images/user-wade.png" alt="user">
+                                </div>
+                                <div class="user-desc-creator">
+                                    <div class="user-name-creator-block">
+                                        <h5>Wade Warren</h5>
+                                        <img src="./images/check-mark.svg" alt="check mark icon">
+                                    </div>
+                                    <div class="user-title-creator">
+                                        <p>Bad Artist, NFT Enthusiast, Metaverse Innovator 
+                                            Supporting #bitcoin since 2012.</p>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="footer-follow-creator ">
+                                    <p>3K Followers</p>
+                                    <button>Follow</button>
+                                </div>
+                         </div>
+                     </div>
+                     <div class="card-top-cre">
+                        <img src="./images/creator-img-three.png" alt="creator img">
+                        <div class="content-creator-form_padding">
+                            <div class="content-creator-card ">
+                                <div class="user-creator-block">
+                                    <img width="56" src="./images/user-arlene.png" alt="user">
+                                </div>
+                                <div class="user-desc-creator">
+                                    <div class="user-name-creator-block">
+                                        <h5>Arlene McCoy</h5>
+                                        <img src="./images/check-mark.svg" alt="check mark icon">
+                                    </div>
+                                    <div class="user-title-creator">
+                                        <p>Bad Artist, NFT Enthusiast, Metaverse Innovator 
+                                            Supporting #bitcoin since 2012.</p>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="footer-follow-creator ">
+                                    <p>3K Followers</p>
+                                    <button>Follow</button>
+                                </div>
+                         </div>
+                     </div>
+                     <div class="card-top-cre">
+                        <img src="./images/creator-img-four.png" alt="creator img">
+                        <div class="content-creator-form_padding">
+                            <div class="content-creator-card ">
+                                <div class="user-creator-block">
+                                    <img width="56" src="./images/user-dianne.png" alt="user">
+                                </div>
+                                <div class="user-desc-creator">
+                                    <div class="user-name-creator-block">
+                                        <h5>Dianne Russell</h5>
+                                        <img src="./images/check-mark.svg" alt="check mark icon">
+                                    </div>
+                                    <div class="user-title-creator">
+                                        <p>Bad Artist, NFT Enthusiast, Metaverse Innovator 
+                                            Supporting #bitcoin since 2012.</p>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="footer-follow-creator ">
+                                    <p>3K Followers</p>
+                                    <button>Follow</button>
+                                </div>
+                         </div>
+                     </div>
+                </div>
+                <div class="creator-link">
+                    <a href="#">View All Creators</a>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top-content">
+                <div class="enter-email-footer">
+                    <h5>Get the latest Rolling updates</h5>
+                    <form action="#">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+                <div class="rolling-footer">
+                    <h5>Rolling</h5>
+                    <div class="footer-list">
+                        <a href="#">Explore</a>
+                        <a href="#">Blog</a>
+                        <a href="#">About us</a>
+                        <a href="#">Become a partner</a>
+                    </div>
+                </div>
+                <div class="community-footer">
+                    <h5>Community</h5>
+                    <div class="footer-list">
+                        <a href="#">Community Guidelines</a>
+                        <a href="#">Roll Token</a>
+                        <a href="#">Discussion</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-content">
+                <div class="link-logo-footer">
+                    <h2>Rolling</h2>
+                    <div class="links-footer-bottom">
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Privacy</a>
+                    </div>
+                </div>
+                <div class="link-icon-footer">
+                    <a href="#"><img src="./images/instagram.svg" alt="icon insta"></a>
+                    <a href="#"><img src="./images/twitter.svg" alt="icon twitter"></a>
+                    <a href="#"><img src="./images/telegram.svg" alt="icon telegram"></a>
+                    <a href="#"><img src="./images/youtube.svg" alt="icon youtube"></a>
+                    <a href="#"><img src="./images/new-icon.svg" alt="icon new nmadur"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
